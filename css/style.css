@@ -1,0 +1,199 @@
+html {
+  font-family: "cocon-next-arabic";
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  direction: rtl;
+  font-family: "cocon-next-arabic";
+  margin-top: 30px;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg {
+    margin-top: -40px;
+  }
+}
+.fixed-top {
+  position: fixed;
+  top: 40px;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link {
+  color: #b28e2e;
+  font-size: 22px;
+  font-weight: bold;
+}
+.dropdown-item,
+dropdown-header {
+  text-align: center;
+}
+
+/************** Start Carousel ****************/
+.text-carousel .carousel-caption {
+  bottom: 100px;
+  background: rgba(255, 255, 255, 0.3);
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.text-carousel .carousel-caption h1 {
+  color: #000;
+}
+.text-carousel .carousel-indicators {
+  bottom: 0;
+}
+
+.text-carousel .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  opacity: 0.4;
+  border: 2px solid #eee;
+  border-radius: 25px;
+}
+.text-carousel .carousel-inner > .carousel-item > img {
+  width: 100%;
+}
+/************** End Carousel ****************/
+/***************  Start About US ***************/
+.about {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #eee;
+  padding: 15px;
+}
+.about-us h2 {
+  direction: rtl;
+  text-align: right;
+  font-size: 900%;
+  color: #b28e2ecf;
+  border-right: 2px solid #b28e2e;
+  padding-right: 20px;
+}
+.works p {
+  direction: rtl;
+  text-align: right;
+  font-size: 26px;
+  margin-right: 20px;
+  border-right: 2px solid #b28e2e;
+  padding-right: 20px;
+}
+
+/***************  End About US ***************/
+
+/* Start Section Stats */
+.statistics {
+  background: url("images/Al diwan Logo8.2.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 300px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.statistics .Data {
+  color: #b6b5b5;
+  min-height: 300px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+.statistics .stats {
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 0.7s ease-in-out;
+}
+.statistics .h1 {
+  margin-bottom: 50px;
+  direction: rtl;
+  text-align: center;
+  font-size: 900%;
+  color: #b28e2ecf;
+}
+.statistics .stats {
+  margin-bottom: 30px;
+}
+.statistics .stats {
+  color: #a67b2d;
+}
+.statistics .stats:hover {
+  color: #f27405;
+}
+
+.statistics p {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.statistics span {
+  font-size: 22px;
+}
+/* End Section Stats */
+
+/*Start Galary Carousel*/
+.galary {
+  background-color: #eee;
+  padding: 10px;
+}
+.galary h2 {
+  text-align: center;
+  font-size: 900%;
+  color: #b28e2ecf;
+}
+.galary .carousel-indicators {
+  bottom: 0;
+}
+.galary .carousel-inner {
+  max-height: 800px;
+}
+.galary .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+  opacity: 0.4;
+  border: 2px solid #a67b2d;
+  border-radius: 25px;
+}
+.navbar-dark > .nav-link,
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .nav-link.active,
+.dropdown-item:hover,
+.dropdown-item:focus,
+.carousel-indicators .active,
+.option-box .gear-check,
+.option-box .color-option ul li,
+.scroll-up {
+  background-color: #a67b2d;
+}
+.galary .carousel-inner > .carousel-item > img {
+  width: 100%;
+}
+.galary button {
+  display: block;
+  margin-top: 10px;
+}
+/*End Galary Carausel*/
+
+/* Start Section Our Clients */
+.our-client {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.our-client h2 {
+  text-align: center;
+  font-size: 900%;
+  color: #b28e2ecf;
+}
+.our-client img {
+  opacity: 0.7;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.our-client img:hover {
+  opacity: 1;
+}
+/* End Section Our Clients */

@@ -1,0 +1,155 @@
+body {
+  direction: rtl;
+  text-align: right;
+  margin-top: 50px;
+}
+/*  Start Contact Page  */
+.contact_title {
+  font-size: 16px;
+  width: 50px;
+  float: right;
+  font-weight: bold;
+  text-align: right;
+  color: #010101;
+  height: 50px;
+}
+.contact_text {
+  color: #333;
+  float: right;
+  font-size: 14px;
+  text-align: right;
+  font-family: tahoma;
+  direction: rtl;
+  font-weight: bold;
+  margin-top: 10px;
+}
+#contact_cont {
+  border-left: solid 1px #ddd;
+  padding: 20px;
+  margin: 40px 20px;
+  position: relative;
+}
+.line {
+  clear: both;
+  border-bottom: 1px solid #cec2b9;
+  margin: 20px 0%;
+}
+.contact_row {
+  margin: 10px 0px 30px 0px;
+  overflow: hidden;
+  width: 100%;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+  display: block;
+}
+/*  End Contact Page  */
+
+/*  Start Company Page  */
+
+#page_title {
+  border-bottom: 1px solid #ccc;
+  font-size: 32px;
+  line-height: 40px;
+  margin: 0px 0 30px;
+  padding: 40px 70px 30px 40px;
+  text-align: right;
+  color: #333;
+  font-weight: bold;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.head-comp {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.text-comp {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.text-comp .lead {
+  font-size: 28px;
+  font-weight: bold;
+}
+.text-comp img {
+  display: block;
+}
+/*  End Company Page  */
+
+/* -Start Section Footer */
+footer {
+  background: #eee;
+  color: #000;
+  padding-top: 10px;
+}
+footer .max-high{
+  /* max-height:150px; */
+}
+footer h3 {
+  letter-spacing: 1px;
+  margin: 30px 0 20px;
+}
+
+footer #contact_cont {
+  border: 0;
+  color: #000;
+}
+footer .contact_row {
+  margin: 0;
+}
+
+footer .contact_title {
+  color: #000;
+}
+footer .contact_text {
+  color: #000;
+  direction:ltr;
+}
+footer #contact_cont {
+  padding: 0;
+  margin: 0;
+}
+footer .bord {
+  border-left: 2px solid #aaa;
+  border-right: 2px solid #aaa;
+  margin: auto;
+}
+footer img {
+  display: block;
+  margin-top: 10px;
+}
+footer .links li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+footer .links li a {
+  color: #000 !important;
+}
+footer .social-list {
+  overflow: hidden;
+}
+footer .social-list li {
+  float: left;
+  margin-left: 3px;
+  opacity: 0.7;
+}
+footer .social-list li:hover {opacity: 1;}
+footer .copyRight {
+  color: #b28e2e;
+  padding: 15px 0;
+  font-size: 20px;
+}
+footer .copyRight span {
+  font-size: 25px;
+}
+footer .copyRight a {
+  color: #1f6d8e;
+  font-weight:bold;
+}
+
+footer .copyRight a:hover {
+  color: #0084ff;
+}
+/* -End Section Footer */

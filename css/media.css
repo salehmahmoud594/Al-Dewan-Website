@@ -1,0 +1,122 @@
+/*  Smart Phones And Tablets  */
+@media (max-width: 576px) {
+  .fixed-top {
+    top: 0;
+  }
+  .text-carousel .carousel-inner {
+    height: 200px;
+  }
+  .text-carousel .carousel-item {
+    height: 200px;
+  }
+  .text-carousel .carousel-caption h1 {
+    color: #000;
+    position: absolute;
+    top: 50px;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .about-us h2 {
+    direction: rtl;
+    text-align: center;
+    font-size: 900%;
+    color: #b28e2ecf;
+    margin-bottom: 40px;
+    border-right: 0px solid #b28e2e;
+    padding-right: 0;
+  }
+  .works p {
+    direction: rtl;
+    text-align: center;
+    font-size: 26px;
+    margin-right: 20px;
+    border-right: 0px solid #b28e2e;
+    padding-right: 0;
+  }
+
+  .statistics .h1 {
+    margin-bottom: 50px;
+    direction: rtl;
+    text-align: center;
+    font-size: 900%;
+    color: #b28e2ecf;
+  }
+
+  .our-client img {
+    width: 200px;
+  }
+
+  .galary h2 {
+    font-size: 700%;
+  }
+  .footer .copyRight {
+    font-size: 24px;
+  }
+}
+
+/*  Small Screen  */
+@media (min-width: 576px) and (max-width: 767px) {
+  .fixed-top {
+    top: 0;
+  }
+  .text-carousel .carousel-inner {
+    height: 200px;
+  }
+  .text-carousel .carousel-item {
+    height: 200px;
+  }
+  .text-carousel .carousel-caption h1 {
+    color: #000;
+    position: absolute;
+    top: 50px;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .about-us h2 {
+    direction: rtl;
+    text-align: center;
+    font-size: 900%;
+    color: #b28e2ecf;
+    margin-bottom: 40px;
+    border-right: 0px solid #b28e2e;
+    padding-right: 0;
+  }
+  .works p {
+    direction: rtl;
+    text-align: center;
+    font-size: 26px;
+    margin-right: 20px;
+    border-right: 0px solid #b28e2e;
+    padding-right: 0;
+  }
+
+  .statistics .h1 {
+    margin-bottom: 50px;
+    direction: rtl;
+    text-align: center;
+    font-size: 900%;
+    color: #b28e2ecf;
+  }
+  .galary h2 {
+    font-size: 700%;
+  }
+  .our-client img {
+    width: 200px;
+  }
+  .footer .copyRight {
+    font-size: 24px;
+  }
+}
+
+/*  Medium Screen  */
+@media (min-width: 767px) and (max-width: 991px) {
+}
+
+/*  Large Screen  */
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+/*  Extra Large Screen  */
+@media (min-width: 1200px) {
+}
